@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Messages:</h1>
+    <h1>MY Messages:</h1>
     <form @submit.prevent="sendMessage">
       <input type="text" placeholder="Message" v-model="newMessage" />
       <button type="submit">Send</button>
